@@ -49,7 +49,7 @@ class HomeView extends StatelessWidget {
                               ),
                               child: IconButton(
                                 onPressed: () {
-                                  Get.toNamed('/notifications');
+                                  Get.toNamed('/settings');
                                 },
                                 icon: Icon(Icons.settings,
                                     color: Colors
@@ -65,8 +65,11 @@ class HomeView extends StatelessWidget {
                                     8.0), // coins arrondis
                               ),
                               child: IconButton(
-                                onPressed: () {
-                                  Get.toNamed('/notifications');
+                                                              onPressed: () {
+                                  Get.snackbar("Error", "Not implemented yet",
+                                      snackPosition: SnackPosition.TOP,
+                                      backgroundColor: Colors.red,
+                                      colorText: Colors.white);
                                 },
                                 icon: Icon(Icons.notifications,
                                     color: Colors

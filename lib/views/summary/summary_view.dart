@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class TrainView extends StatelessWidget {
+class SummaryView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(59, 59, 58, 1),
-        title: Text('Train'),
+        title: Text('Summary'),
       ),
       body: Container(
         constraints: BoxConstraints.expand(),
@@ -22,7 +22,7 @@ class TrainView extends StatelessWidget {
           ),
         ),
         child: Center(
-          child: Text('This is the Train page', style: TextStyle(color: Colors.white)),
+          child: Text('This is the Summary page', style: TextStyle(color: Colors.white)),
         ),
       ),
     );

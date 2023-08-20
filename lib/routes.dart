@@ -7,6 +7,7 @@ import 'views/train/train_view.dart';
 import 'views/water/water_view.dart';
 import 'views/sleep/sleep_view.dart';
 import 'views/stats/stats_view.dart';
+import 'views/summary/summary_view.dart';
 
 final routes = [
   GetPage(name: '/', page: () => HomeView()),
@@ -14,8 +15,9 @@ final routes = [
   GetPage(name: '/notifications', page: () => SettingsView()),
   GetPage(name: '/about', page: () => AboutView()),
   GetPage(name: '/heart', page: () => HeartView()),
+  GetPage(name: '/summary', page: () => SummaryView()),
   GetPage(name: '/train', page: () => TrainView()),
   GetPage(name: '/water', page: () => WaterView()),
-  GetPage(name: '/Sleep', page: () => SleepView()),
+  GetPage(name: '/sleep', page: () => SleepView()),
   GetPage(name: '/stats', page: () => StatsView()),
 ];
